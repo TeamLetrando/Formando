@@ -17,6 +17,35 @@
 		7B9C57F72738A4BA006C1979 /* FormandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57F62738A4BA006C1979 /* FormandoTests.swift */; };
 		7B9C58012738A4BA006C1979 /* FormandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C58002738A4BA006C1979 /* FormandoUITests.swift */; };
 		7B9C58032738A4BA006C1979 /* FormandoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C58022738A4BA006C1979 /* FormandoUITestsLaunchTests.swift */; };
+		7B9C58132738A573006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58122738A573006C1979 /* File */; };
+		7B9C58152738A58C006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58142738A58C006C1979 /* File */; };
+		7B9C58182738A5AD006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58172738A5AD006C1979 /* File */; };
+		7B9C581B2738A5F3006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C581A2738A5F3006C1979 /* File */; };
+		7B9C58222738A63F006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58212738A63F006C1979 /* File */; };
+		7B9C58242738A64A006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58232738A64A006C1979 /* File */; };
+		7B9C58262738A658006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58252738A658006C1979 /* File */; };
+		7B9C58282738A661006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58272738A661006C1979 /* File */; };
+		7B9C582F2738A6A6006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C582E2738A6A6006C1979 /* File */; };
+		7B9C58312738A6B8006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58302738A6B8006C1979 /* File */; };
+		7B9C58332738A6C3006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58322738A6C3006C1979 /* File */; };
+		7B9C58362738A6D9006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58352738A6D9006C1979 /* File */; };
+		7B9C583A2738A6FB006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58392738A6FB006C1979 /* File */; };
+		7B9C583D2738A70D006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C583C2738A70D006C1979 /* File */; };
+		7B9C583F2738A715006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C583E2738A715006C1979 /* File */; };
+		7B9C58422738A760006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58412738A760006C1979 /* File */; };
+		7B9C58452738A778006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58442738A778006C1979 /* File */; };
+		7B9C584A2738A7D3006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58492738A7D3006C1979 /* File */; };
+		7B9C584F2738A80B006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C584E2738A80B006C1979 /* File */; };
+		7B9C58542738A83F006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58532738A83F006C1979 /* File */; };
+		7B9C58562738A848006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58552738A848006C1979 /* File */; };
+		7B9C585B2738A873006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C585A2738A873006C1979 /* File */; };
+		7B9C585D2738A87A006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C585C2738A87A006C1979 /* File */; };
+		7B9C58612738A8B7006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58602738A8B7006C1979 /* File */; };
+		7B9C58632738A8BF006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58622738A8BF006C1979 /* File */; };
+		7B9C58682738A925006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58672738A925006C1979 /* File */; };
+		7B9C586A2738A92E006C1979 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C58692738A92E006C1979 /* File */; };
+		7B9C586D2738A95E006C1979 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B9C586C2738A95E006C1979 /* Lottie */; };
+		7B9C58702738A96F006C1979 /* SoundsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B9C586F2738A96F006C1979 /* SoundsKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +80,33 @@
 		7B9C57FC2738A4BA006C1979 /* FormandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9C58002738A4BA006C1979 /* FormandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormandoUITests.swift; sourceTree = "<group>"; };
 		7B9C58022738A4BA006C1979 /* FormandoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormandoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B9C58122738A573006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58142738A58C006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58172738A5AD006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C581A2738A5F3006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58212738A63F006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58232738A64A006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58252738A658006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58272738A661006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C582E2738A6A6006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58302738A6B8006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58322738A6C3006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58352738A6D9006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58392738A6FB006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C583C2738A70D006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C583E2738A715006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58412738A760006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58442738A778006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58492738A7D3006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C584E2738A80B006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58532738A83F006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58552738A848006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C585A2738A873006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C585C2738A87A006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58602738A8B7006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58622738A8BF006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58672738A925006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		7B9C58692738A92E006C1979 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9C586D2738A95E006C1979 /* Lottie in Frameworks */,
+				7B9C58702738A96F006C1979 /* SoundsKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +159,19 @@
 		7B9C57DB2738A4B8006C1979 /* Formando */ = {
 			isa = PBXGroup;
 			children = (
-				7B9C57DC2738A4B8006C1979 /* AppDelegate.swift */,
-				7B9C57DE2738A4B8006C1979 /* SceneDelegate.swift */,
+				7B9C58642738A8D7006C1979 /* Shared */,
+				7B9C58572738A850006C1979 /* Utils */,
+				7B9C58502738A815006C1979 /* Model */,
+				7B9C584B2738A7DD006C1979 /* Controller */,
+				7B9C58462738A7A5006C1979 /* View */,
+				7B9C58432738A768006C1979 /* Protocol */,
+				7B9C582A2738A67F006C1979 /* Home */,
+				7B9C58292738A66E006C1979 /* Onboarding */,
+				7B9C581C2738A5FE006C1979 /* Game */,
+				7B9C580F2738A52A006C1979 /* Result */,
 				7B9C57E02738A4B8006C1979 /* ViewController.swift */,
 				7B9C57E22738A4B8006C1979 /* Main.storyboard */,
 				7B9C57E82738A4B9006C1979 /* Assets.xcassets */,
-				7B9C57EA2738A4B9006C1979 /* LaunchScreen.storyboard */,
 				7B9C57ED2738A4B9006C1979 /* Info.plist */,
 				7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */,
 			);
@@ -130,6 +195,322 @@
 			path = FormandoUITests;
 			sourceTree = "<group>";
 		};
+		7B9C580F2738A52A006C1979 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58192738A5B4006C1979 /* SceneFactory */,
+				7B9C58162738A597006C1979 /* Router */,
+				7B9C58112738A54B006C1979 /* View */,
+				7B9C58102738A53C006C1979 /* ViewController */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		7B9C58102738A53C006C1979 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58122738A573006C1979 /* File */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9C58112738A54B006C1979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58142738A58C006C1979 /* File */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B9C58162738A597006C1979 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58172738A5AD006C1979 /* File */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B9C58192738A5B4006C1979 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C581A2738A5F3006C1979 /* File */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		7B9C581C2738A5FE006C1979 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58202738A62B006C1979 /* SceneFactory */,
+				7B9C581F2738A622006C1979 /* Router */,
+				7B9C581E2738A61A006C1979 /* View */,
+				7B9C581D2738A60D006C1979 /* ViewController */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7B9C581D2738A60D006C1979 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58272738A661006C1979 /* File */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9C581E2738A61A006C1979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58252738A658006C1979 /* File */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B9C581F2738A622006C1979 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58232738A64A006C1979 /* File */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B9C58202738A62B006C1979 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58212738A63F006C1979 /* File */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		7B9C58292738A66E006C1979 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58342738A6C8006C1979 /* SceneFactory */,
+				7B9C582D2738A698006C1979 /* Router */,
+				7B9C582C2738A68F006C1979 /* View */,
+				7B9C582B2738A684006C1979 /* ViewController */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7B9C582A2738A67F006C1979 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58402738A74F006C1979 /* SceneFactory */,
+				7B9C583B2738A701006C1979 /* Router */,
+				7B9C58382738A6ED006C1979 /* View */,
+				7B9C58372738A6E2006C1979 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B9C582B2738A684006C1979 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58302738A6B8006C1979 /* File */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9C582C2738A68F006C1979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C582E2738A6A6006C1979 /* File */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B9C582D2738A698006C1979 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58322738A6C3006C1979 /* File */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B9C58342738A6C8006C1979 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58352738A6D9006C1979 /* File */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		7B9C58372738A6E2006C1979 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58392738A6FB006C1979 /* File */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9C58382738A6ED006C1979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C583C2738A70D006C1979 /* File */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B9C583B2738A701006C1979 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C583E2738A715006C1979 /* File */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B9C58402738A74F006C1979 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58412738A760006C1979 /* File */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		7B9C58432738A768006C1979 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58442738A778006C1979 /* File */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7B9C58462738A7A5006C1979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58482738A7BF006C1979 /* Shared */,
+				7B9C58472738A7AC006C1979 /* LauchScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B9C58472738A7AC006C1979 /* LauchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C57EA2738A4B9006C1979 /* LaunchScreen.storyboard */,
+			);
+			path = LauchScreen;
+			sourceTree = "<group>";
+		};
+		7B9C58482738A7BF006C1979 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58492738A7D3006C1979 /* File */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7B9C584B2738A7DD006C1979 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C584C2738A7F6006C1979 /* Notifications */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B9C584C2738A7F6006C1979 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C584E2738A80B006C1979 /* File */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		7B9C58502738A815006C1979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58522738A82B006C1979 /* Entities */,
+				7B9C58512738A81E006C1979 /* Repository */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B9C58512738A81E006C1979 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58532738A83F006C1979 /* File */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7B9C58522738A82B006C1979 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58552738A848006C1979 /* File */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7B9C58572738A850006C1979 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C585F2738A895006C1979 /* Fonts */,
+				7B9C585E2738A888006C1979 /* Extensions */,
+				7B9C58592738A863006C1979 /* LocalNotifications */,
+				7B9C58582738A85A006C1979 /* Strings */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7B9C58582738A85A006C1979 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C585A2738A873006C1979 /* File */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		7B9C58592738A863006C1979 /* LocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C585C2738A87A006C1979 /* File */,
+			);
+			path = LocalNotifications;
+			sourceTree = "<group>";
+		};
+		7B9C585E2738A888006C1979 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58622738A8BF006C1979 /* File */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7B9C585F2738A895006C1979 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58602738A8B7006C1979 /* File */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7B9C58642738A8D7006C1979 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58662738A917006C1979 /* Animation */,
+				7B9C58652738A90F006C1979 /* Router */,
+				7B9C57DC2738A4B8006C1979 /* AppDelegate.swift */,
+				7B9C57DE2738A4B8006C1979 /* SceneDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7B9C58652738A90F006C1979 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58692738A92E006C1979 /* File */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B9C58662738A917006C1979 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C58672738A925006C1979 /* File */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +527,10 @@
 			dependencies = (
 			);
 			name = Formando;
+			packageProductDependencies = (
+				7B9C586C2738A95E006C1979 /* Lottie */,
+				7B9C586F2738A96F006C1979 /* SoundsKit */,
+			);
 			productName = Formando;
 			productReference = 7B9C57D92738A4B8006C1979 /* Formando.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +603,10 @@
 				Base,
 			);
 			mainGroup = 7B9C57D02738A4B8006C1979;
+			packageReferences = (
+				7B9C586B2738A95E006C1979 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				7B9C586E2738A96F006C1979 /* XCRemoteSwiftPackageReference "SoundsKit" */,
+			);
 			productRefGroup = 7B9C57DA2738A4B8006C1979 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +623,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9C58422738A760006C1979 /* File in Resources */,
+				7B9C583D2738A70D006C1979 /* File in Resources */,
+				7B9C584A2738A7D3006C1979 /* File in Resources */,
+				7B9C58132738A573006C1979 /* File in Resources */,
 				7B9C57EC2738A4B9006C1979 /* LaunchScreen.storyboard in Resources */,
+				7B9C58452738A778006C1979 /* File in Resources */,
+				7B9C584F2738A80B006C1979 /* File in Resources */,
+				7B9C58332738A6C3006C1979 /* File in Resources */,
+				7B9C581B2738A5F3006C1979 /* File in Resources */,
+				7B9C58542738A83F006C1979 /* File in Resources */,
+				7B9C58682738A925006C1979 /* File in Resources */,
+				7B9C583A2738A6FB006C1979 /* File in Resources */,
+				7B9C58312738A6B8006C1979 /* File in Resources */,
+				7B9C58182738A5AD006C1979 /* File in Resources */,
+				7B9C586A2738A92E006C1979 /* File in Resources */,
+				7B9C583F2738A715006C1979 /* File in Resources */,
+				7B9C58262738A658006C1979 /* File in Resources */,
+				7B9C58222738A63F006C1979 /* File in Resources */,
+				7B9C58632738A8BF006C1979 /* File in Resources */,
+				7B9C585D2738A87A006C1979 /* File in Resources */,
+				7B9C58612738A8B7006C1979 /* File in Resources */,
+				7B9C58282738A661006C1979 /* File in Resources */,
 				7B9C57E92738A4B9006C1979 /* Assets.xcassets in Resources */,
+				7B9C582F2738A6A6006C1979 /* File in Resources */,
+				7B9C585B2738A873006C1979 /* File in Resources */,
 				7B9C57E42738A4B8006C1979 /* Main.storyboard in Resources */,
+				7B9C58562738A848006C1979 /* File in Resources */,
+				7B9C58152738A58C006C1979 /* File in Resources */,
+				7B9C58242738A64A006C1979 /* File in Resources */,
+				7B9C58362738A6D9006C1979 /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +1044,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B9C586B2738A95E006C1979 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7B9C586E2738A96F006C1979 /* XCRemoteSwiftPackageReference "SoundsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TeamLetrando/SoundsKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B9C586C2738A95E006C1979 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B9C586B2738A95E006C1979 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7B9C586F2738A96F006C1979 /* SoundsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B9C586E2738A96F006C1979 /* XCRemoteSwiftPackageReference "SoundsKit" */;
+			productName = SoundsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */ = {
