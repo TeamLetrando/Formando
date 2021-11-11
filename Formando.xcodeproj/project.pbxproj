@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		525A7525CBA4F5110B6ED7EF /* Pods_FormandoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599C392F052DD9DF18F78BB8 /* Pods_FormandoTests.framework */; };
+		7B06D395273D45BA003689DC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B06D394273D45BA003689DC /* Lottie */; };
+		7B06D398273D45D6003689DC /* SoundsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B06D397273D45D6003689DC /* SoundsKit */; };
 		7B2DA104273BF9CC004CF6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C57EA2738A4B9006C1979 /* LaunchScreen.storyboard */; };
 		7B9C57DD2738A4B8006C1979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57DC2738A4B8006C1979 /* AppDelegate.swift */; };
 		7B9C57DF2738A4B8006C1979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57DE2738A4B8006C1979 /* SceneDelegate.swift */; };
@@ -123,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B06D395273D45BA003689DC /* Lottie in Frameworks */,
+				7B06D398273D45D6003689DC /* SoundsKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +560,7 @@
 				7B9C57D52738A4B8006C1979 /* Sources */,
 				7B9C57D62738A4B8006C1979 /* Frameworks */,
 				7B9C57D72738A4B8006C1979 /* Resources */,
+				7B06D399273D45EE003689DC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -563,6 +568,8 @@
 			);
 			name = Formando;
 			packageProductDependencies = (
+				7B06D394273D45BA003689DC /* Lottie */,
+				7B06D397273D45D6003689DC /* SoundsKit */,
 			);
 			productName = Formando;
 			productReference = 7B9C57D92738A4B8006C1979 /* Formando.app */;
@@ -639,6 +646,8 @@
 			);
 			mainGroup = 7B9C57D02738A4B8006C1979;
 			packageReferences = (
+				7B06D393273D45B9003689DC /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				7B06D396273D45D6003689DC /* XCRemoteSwiftPackageReference "SoundsKit" */,
 			);
 			productRefGroup = 7B9C57DA2738A4B8006C1979 /* Products */;
 			projectDirPath = "";
@@ -722,6 +731,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7B06D399273D45EE003689DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		96F0716DBFDE39602E807E83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1152,6 +1178,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B06D393273D45B9003689DC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7B06D396273D45D6003689DC /* XCRemoteSwiftPackageReference "SoundsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TeamLetrando/SoundsKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B06D394273D45BA003689DC /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B06D393273D45B9003689DC /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7B06D397273D45D6003689DC /* SoundsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B06D396273D45D6003689DC /* XCRemoteSwiftPackageReference "SoundsKit" */;
+			productName = SoundsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */ = {
