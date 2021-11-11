@@ -5,6 +5,8 @@
 //  Created by PATRICIA S SIQUEIRA on 07/11/21.
 //
 
+// swiftlint:disable unused_optional_binding
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
