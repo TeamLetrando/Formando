@@ -5,9 +5,9 @@
 //  Created by PATRICIA S SIQUEIRA on 07/11/21.
 //
 
-//import XCTest
+// import XCTest
 //
-//class FormandoUITestsLaunchTests: XCTestCase {
+// class FormandoUITestsLaunchTests: XCTestCase {
 //
 //    override class var runsForEachTargetApplicationUIConfiguration: Bool {
 //        true
@@ -29,4 +29,4 @@
 //        attachment.lifetime = .keepAlways
 //        add(attachment)
 //    }
-//}
+// }
