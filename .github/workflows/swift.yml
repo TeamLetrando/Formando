@@ -9,7 +9,7 @@ jobs:
     runs-on: macOS-latest
     strategy:
         matrix:
-          destination: ['platform=iOS Simulator,OS=15.0,name=iPhone 13']
+          destination: ['platform=iOS Simulator,OS=14.4,name=iPhone 12']
           
     steps:
     - name: Checkout
@@ -29,8 +29,6 @@ jobs:
       run: |
         pwd
         swift package init --type library
-        xcrun simctl list
         xcodebuild clean test -project Formando.xcodeproj -scheme Formando -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-        #bash <(curl -s https://codecov.io/bash)
       env: 
         destination: ${{ matrix.destination}}
