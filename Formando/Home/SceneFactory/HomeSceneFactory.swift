@@ -1,8 +1,27 @@
+// import Foundation
+// import UIKit
 //
-//  File.swift
-//  Formando
+// class HomeSceneFactory: SceneFactory {
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+//    private let navigationController: UINavigationController?
 //
-
-import Foundation
+//    required init(navigationController: UINavigationController?) {
+//        self.navigationController = navigationController
+//    }
+//
+//    func instantiateViewController() -> UIViewController {
+//        let homeView = instantiateHomeView()
+//        let homeViewController = HomeViewController()
+//
+//        homeViewController.setup(with: homeView, homeRouter: instantiateHomeRouter())
+//        return homeViewController
+//    }
+//
+//    private func instantiateHomeView() -> HomeViewProtocol {
+//        return HomeView()
+//    }
+//
+//    private func instantiateHomeRouter() -> HomeRouterLogic {
+//        return HomeRouter(navigationController: navigationController)
+//    }
+// }

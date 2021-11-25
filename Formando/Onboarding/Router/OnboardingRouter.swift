@@ -1,8 +1,25 @@
+// import UIKit
+// import SoundsKit
 //
-//  File.swift
-//  Formando
+// protocol OnboardingRouterLogic {
+//    init(navigationController: UINavigationController?)
+//    func dismissOnboarding()
+//}
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+// class OnboardingRouter: OnboardingRouterLogic {
 //
-
-import Foundation
+//    private var navigationController: UINavigationController?
+//
+//    required init(navigationController: UINavigationController?) {
+//        self.navigationController = navigationController
+//    }
+//
+//    func dismissOnboarding() {
+//        SoundsKit.stop()
+//        SoundsKit.file = "Curious_Kiddo"
+//        SoundsKit.fileExtension = "mp3"
+//        SoundsKit.audioIsOn() ? try? SoundsKit.play() : SoundsKit.stop()
+//        navigationController?.dismiss(animated: true, completion: nil)
+//    }
+//
+// }

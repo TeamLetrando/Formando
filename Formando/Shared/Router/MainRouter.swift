@@ -1,8 +1,29 @@
+// import Foundation
+// import UIKit
 //
-//  File.swift
-//  Formando
+// protocol MainRouterLogic {
+//    init(scene: UIWindowScene, navigationController: UINavigationController)
+//    func startHome()
+// }
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+// class MainRouter: MainRouterLogic {
 //
-
-import Foundation
+//    private var navigationController: UINavigationController
+//    private var window: UIWindow?
+//    private var homeSceneFactory: SceneFactory
+//
+//    required init(scene: UIWindowScene, navigationController: UINavigationController) {
+//        self.navigationController = navigationController
+//        homeSceneFactory = HomeSceneFactory(navigationController: navigationController)
+//        window = UIWindow(windowScene: scene)
+//    }
+//
+//    func startHome() {
+//        let homeViewController = homeSceneFactory.instantiateViewController()
+//        navigationController.isNavigationBarHidden = true
+//        navigationController.viewControllers = [homeViewController]
+//        window?.overrideUserInterfaceStyle = .light
+//        window?.rootViewController = navigationController
+//        window?.makeKeyAndVisible()
+//    }
+// }

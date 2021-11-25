@@ -1,8 +1,23 @@
+// import Foundation
+// import UIKit
 //
-//  File.swift
-//  Formando
+// class OnboardingSceneFactory: SceneFactory {
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+//    private var navigationController: UINavigationController?
 //
-
-import Foundation
+//    required init(navigationController: UINavigationController?) {
+//        self.navigationController = navigationController
+//    }
+//
+//    func instantiateViewController() -> UIViewController {
+//        let onboardingViewController = OnboardingViewController()
+//        onboardingViewController.setup(onboardingRouter: instantiateOnboardingRouter())
+//
+//        onboardingViewController.isModalInPresentation = true
+//        return onboardingViewController
+//    }
+//
+//    private func instantiateOnboardingRouter() -> OnboardingRouterLogic {
+//        return OnboardingRouter(navigationController: navigationController)
+//    }
+// }

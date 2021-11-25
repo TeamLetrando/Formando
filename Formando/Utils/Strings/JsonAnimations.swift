@@ -1,8 +1,9 @@
+// import Foundation
 //
-//  File.swift
-//  Formando
-//
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
-//
-
-import Foundation
+// enum JsonAnimations: String {
+//    case onboardingPresentation = "mascotPresentation"
+//    case onboardingAlert = "mascotAlert"
+//    case onboardingTablet = "tabletAnimation"
+//    case mascotHomeAnimation = "mascoteHome"
+//    case mascotResultAnimation = "mascoteResult"
+// }

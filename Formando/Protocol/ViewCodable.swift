@@ -1,8 +1,24 @@
+//  import UIKit
 //
-//  File.swift
-//  Formando
+///// A protocol that provides base functions for using view code
+//  public protocol ViewCodable {
+//    /// Add views to the main view
+//    func buildViewHierarchy()
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+//    /// Add constraints for the view
+//    func setupConstraints()
 //
-
-import Foundation
+//    /// Add additional necessary settings to the view
+//    func setupAditionalChanges()
+//}
+//
+// public extension ViewCodable {
+//    /// Call this function from didMoveToSuperview to perform the viewCode functions
+//    func setupView() {
+//        self.buildViewHierarchy()
+//        self.setupConstraints()
+//        self.setupAditionalChanges()
+//    }
+//
+//    func setupAditionalChanges() {}
+//}
