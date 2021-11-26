@@ -13,8 +13,6 @@
 		7B596767274FAB6900781F18 /* onboarding3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B596766274FAB6900781F18 /* onboarding3.json */; };
 		7B9C57DD2738A4B8006C1979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57DC2738A4B8006C1979 /* AppDelegate.swift */; };
 		7B9C57DF2738A4B8006C1979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57DE2738A4B8006C1979 /* SceneDelegate.swift */; };
-		7B9C57E12738A4B8006C1979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57E02738A4B8006C1979 /* ViewController.swift */; };
-		7B9C57E42738A4B8006C1979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C57E22738A4B8006C1979 /* Main.storyboard */; };
 		7B9C57E72738A4B8006C1979 /* Formando.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */; };
 		7B9C57E92738A4B9006C1979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C57E82738A4B9006C1979 /* Assets.xcassets */; };
 		7B9C57F72738A4BA006C1979 /* FormandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C57F62738A4BA006C1979 /* FormandoTests.swift */; };
@@ -63,6 +61,8 @@
 		7BF04099273BF4D200E61D7F /* ResultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF04098273BF4D200E61D7F /* ResultRouter.swift */; };
 		7BF0409B273BF4DD00E61D7F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF0409A273BF4DD00E61D7F /* ResultView.swift */; };
 		7BF0409D273BF4EA00E61D7F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF0409C273BF4EA00E61D7F /* ResultViewController.swift */; };
+		AF6B4CB5274FCA46008EB1E6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AF6B4CB4274FCA46008EB1E6 /* Lottie */; };
+		AF6B4CB8274FCE0F008EB1E6 /* SoundsKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF6B4CB7274FCE0F008EB1E6 /* SoundsKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,8 +89,6 @@
 		7B9C57D92738A4B8006C1979 /* Formando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9C57DC2738A4B8006C1979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B9C57DE2738A4B8006C1979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B9C57E02738A4B8006C1979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B9C57E32738A4B8006C1979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B9C57E62738A4B8006C1979 /* Formando.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Formando.xcdatamodel; sourceTree = "<group>"; };
 		7B9C57E82738A4B9006C1979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B9C57EB2738A4B9006C1979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -151,6 +149,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6B4CB5274FCA46008EB1E6 /* Lottie in Frameworks */,
+				AF6B4CB8274FCE0F008EB1E6 /* SoundsKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +178,6 @@
 				7B9C57F52738A4BA006C1979 /* FormandoTests */,
 				7B9C57FF2738A4BA006C1979 /* FormandoUITests */,
 				7B9C57DA2738A4B8006C1979 /* Products */,
-				B08F3D955025A1B445A0F9B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,8 +204,6 @@
 				7B9C58292738A66E006C1979 /* Onboarding */,
 				7B9C581C2738A5FE006C1979 /* Game */,
 				7B9C580F2738A52A006C1979 /* Result */,
-				7B9C57E02738A4B8006C1979 /* ViewController.swift */,
-				7B9C57E22738A4B8006C1979 /* Main.storyboard */,
 				7B9C57E82738A4B9006C1979 /* Assets.xcassets */,
 				7B9C57ED2738A4B9006C1979 /* Info.plist */,
 				7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */,
@@ -575,13 +572,6 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
-		B08F3D955025A1B445A0F9B7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -599,6 +589,10 @@
 			dependencies = (
 			);
 			name = Formando;
+			packageProductDependencies = (
+				AF6B4CB4274FCA46008EB1E6 /* Lottie */,
+				AF6B4CB7274FCE0F008EB1E6 /* SoundsKit */,
+			);
 			productName = Formando;
 			productReference = 7B9C57D92738A4B8006C1979 /* Formando.app */;
 			productType = "com.apple.product-type.application";
@@ -671,6 +665,10 @@
 				Base,
 			);
 			mainGroup = 7B9C57D02738A4B8006C1979;
+			packageReferences = (
+				AF6B4CB3274FCA46008EB1E6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				AF6B4CB6274FCE0F008EB1E6 /* XCRemoteSwiftPackageReference "SoundsKit" */,
+			);
 			productRefGroup = 7B9C57DA2738A4B8006C1979 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -693,7 +691,6 @@
 				7BD90FEE27453386002D09BC /* Localizable.strings in Resources */,
 				7B9C57E92738A4B9006C1979 /* Assets.xcassets in Resources */,
 				7B596765274FAB5900781F18 /* result.json in Resources */,
-				7B9C57E42738A4B8006C1979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,7 +742,6 @@
 				7BF0406B273BF09D00E61D7F /* MainRouter.swift in Sources */,
 				7BD90FF827453699002D09BC /* Notifications.swift in Sources */,
 				7BF04099273BF4D200E61D7F /* ResultRouter.swift in Sources */,
-				7B9C57E12738A4B8006C1979 /* ViewController.swift in Sources */,
 				7BF04087273BF37E00E61D7F /* OnboardingSceneFactory.swift in Sources */,
 				7BD90FF227453416002D09BC /* UIFont.swift in Sources */,
 				7BD90FEC2745333D002D09BC /* UserDefaultsKey.swift in Sources */,
@@ -820,14 +816,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7B9C57E22738A4B8006C1979 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B9C57E32738A4B8006C1979 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B9C57EA2738A4B9006C1979 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -967,7 +955,8 @@
 				INFOPLIST_FILE = Formando/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -995,7 +984,8 @@
 				INFOPLIST_FILE = Formando/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1147,6 +1137,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF6B4CB3274FCA46008EB1E6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		AF6B4CB6274FCE0F008EB1E6 /* XCRemoteSwiftPackageReference "SoundsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TeamLetrando/SoundsKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF6B4CB4274FCA46008EB1E6 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF6B4CB3274FCA46008EB1E6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		AF6B4CB7274FCE0F008EB1E6 /* SoundsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF6B4CB6274FCE0F008EB1E6 /* XCRemoteSwiftPackageReference "SoundsKit" */;
+			productName = SoundsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */ = {
