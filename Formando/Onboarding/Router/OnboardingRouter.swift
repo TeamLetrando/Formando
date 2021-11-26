@@ -1,8 +1,32 @@
 //
-//  File.swift
+//  OnboardingRouter.swift
 //  Formando
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+//  Created by Lidiane Gomes Barbosa on 01/10/21.
 //
 
-import Foundation
+import UIKit
+import SoundsKit
+
+protocol OnboardingRouterLogic: AnyObject {
+    init(navigationController: UINavigationController?)
+    func dismissOnboarding()
+}
+
+class OnboardingRouter: OnboardingRouterLogic {
+    
+    private var navigationController: UINavigationController?
+    
+    required init(navigationController: UINavigationController?) {
+        self.navigationController = navigationController
+    }
+    
+    func dismissOnboarding() {
+        SoundsKit.stop()
+        SoundsKit.file = "Curious_Kiddo"
+        SoundsKit.fileExtension = "mp3"
+        SoundsKit.audioIsOn() ? try? SoundsKit.play() : SoundsKit.stop()
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
+    
+}

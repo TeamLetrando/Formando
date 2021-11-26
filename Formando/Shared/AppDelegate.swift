@@ -29,6 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the user discards a scene session.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    var myOrientation: UIInterfaceOrientationMask = .portrait
+    func application(_ application: UIApplication,
+                     supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return myOrientation
+    }
 
     // MARK: - Core Data stack
 
