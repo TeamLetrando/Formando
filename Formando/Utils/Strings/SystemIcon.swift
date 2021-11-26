@@ -1,5 +1,5 @@
 //
-//  Icons.swift
+//  SystemIcons.swift
 //  Formando
 //
 //  Created by Lidiane Gomes Barbosa on 19/10/21.

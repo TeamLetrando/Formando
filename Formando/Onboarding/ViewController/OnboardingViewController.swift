@@ -16,7 +16,8 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
     
     private lazy var pages = [UIViewController]()
     private lazy var currentIndexPage: Int = .zero
-    private weak var onboardingRouter: OnboardingRouterLogic?
+    private var onboardingRouter: OnboardingRouterLogic?
+    private var userDefaults = UserDefaults.standard
     
     private lazy var pageControl: UIPageControl = {
         let pageControl = UIPageControl()
@@ -59,10 +60,16 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
         super.viewDidLoad()
         setupView()
         try? SoundsKit.playOnboardingLetrando(at: pageControl.currentPage)
+        userDefaults.set(true, forKey: UserDefaultsKey.onboardingIsOn.rawValue)
         setOrientation()
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        currentIndexPage = .zero
+        setViewControllers([pages[currentIndexPage]], direction: .forward, animated: true, completion: nil)
+        updateLayout(pages[currentIndexPage])
+        try? SoundsKit.playOnboardingLetrando(at: pageControl.currentPage)
+        userDefaults.set(true, forKey: UserDefaultsKey.onboardingIsOn.rawValue)
         setOrientation()
     }
     
@@ -170,7 +177,7 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
     }
     
     private func nextButtonAction() {
-        if currentIndexPage == (pages.count - 1) && SoundsKit.isFinishOnboarding() {
+        if currentIndexPage == (pages.count - 1) {
             onboardingRouter?.dismissOnboarding()
             return
         }
