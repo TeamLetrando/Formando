@@ -1,0 +1,18 @@
+[
+    {
+        "name": "cilindro"
+    },
+    {
+        "name": "cone"
+    },
+    {
+        "name": "cubo"
+    },
+    {
+        "name": "esfera"
+    },
+    {
+        "name": "torus"
+    }
+]
+
