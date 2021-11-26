@@ -132,17 +132,20 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
     
     func configurePages() {
         let presentationView = PageView(animationName: JsonAnimations.onboardingPresentation.rawValue,
-                                        message: LocalizableBundle.onboardingMessagePresentation.localize)
+                                        message: LocalizableBundle.onboardingMessagePresentation.localize,
+                                        animationType: .image)
         let presentationController = PageViewController()
         presentationController.setup(with: presentationView)
         
         let alertView = PageView(animationName: JsonAnimations.onboardingAlert.rawValue,
-                                 message: LocalizableBundle.onboardingMessageAlert.localize)
+                                 message: LocalizableBundle.onboardingMessageAlert.localize,
+                                 animationType: .image)
         let alertController = PageViewController()
         alertController.setup(with: alertView)
         
         let tutorialView = PageView(animationName: JsonAnimations.onboardingTablet.rawValue,
-                                    message: LocalizableBundle.onboardingMessageInstruction.localize)
+                                    message: LocalizableBundle.onboardingMessageInstruction.localize,
+                                    animationType: .json)
         let tutorialController = PageViewController()
         tutorialController.setup(with: tutorialView)
         
@@ -167,8 +170,7 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
     }
     
     private func nextButtonAction() {
-        if currentIndexPage == (pages.count - 1) // && SoundsKit.isFinishOnboarding()
-        {
+        if currentIndexPage == (pages.count - 1) && SoundsKit.isFinishOnboarding() {
             onboardingRouter?.dismissOnboarding()
             return
         }
