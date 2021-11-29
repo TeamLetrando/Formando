@@ -37,7 +37,7 @@ class SoundButton: UIView, ViewCodable {
     
     @objc private func setAudio() {
         
-        SoundsKit.audioIsOn() ? try? SoundsKit.playBackgroundLetrando() :  SoundsKit.stop()
+        SoundsKit.audioIsOn() ? try? SoundsKit.playBackgroundFormando() :  SoundsKit.stop()
         
         roundedButton.setBackgroundImage(currentBackgroundImage, for: .normal)
         layoutSubviews()
