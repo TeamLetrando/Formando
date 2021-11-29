@@ -60,6 +60,8 @@
 		7BF0409D273BF4EA00E61D7F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF0409C273BF4EA00E61D7F /* ResultViewController.swift */; };
 		AF6B4CB5274FCA46008EB1E6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AF6B4CB4274FCA46008EB1E6 /* Lottie */; };
 		AF6B4CB8274FCE0F008EB1E6 /* SoundsKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF6B4CB7274FCE0F008EB1E6 /* SoundsKit */; };
+		AF6B4CBF27512762008EB1E6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6B4CBE27512762008EB1E6 /* art.scnassets */; };
+		AF6B4CE727512BFD008EB1E6 /* formas.json in Resources */ = {isa = PBXBuildFile; fileRef = AF6B4CE627512BFD008EB1E6 /* formas.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +119,8 @@
 		7BF04098273BF4D200E61D7F /* ResultRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRouter.swift; sourceTree = "<group>"; };
 		7BF0409A273BF4DD00E61D7F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		7BF0409C273BF4EA00E61D7F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AF6B4CBE27512762008EB1E6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF6B4CE627512BFD008EB1E6 /* formas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = formas.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 				7B9C57E82738A4B9006C1979 /* Assets.xcassets */,
 				7B9C57ED2738A4B9006C1979 /* Info.plist */,
 				7B9C57E52738A4B8006C1979 /* Formando.xcdatamodeld */,
+				AF6B4CBE27512762008EB1E6 /* art.scnassets */,
+				AF6B4CE627512BFD008EB1E6 /* formas.json */,
 			);
 			path = Formando;
 			sourceTree = "<group>";
@@ -582,9 +588,11 @@
 				7B596763274FAB4A00781F18 /* home.json in Resources */,
 				7B596767274FAB6900781F18 /* onboarding3.json in Resources */,
 				7B2DA104273BF9CC004CF6BD /* LaunchScreen.storyboard in Resources */,
+				AF6B4CE727512BFD008EB1E6 /* formas.json in Resources */,
 				7BD90FEE27453386002D09BC /* Localizable.strings in Resources */,
 				7B9C57E92738A4B9006C1979 /* Assets.xcassets in Resources */,
 				7B596765274FAB5900781F18 /* result.json in Resources */,
+				AF6B4CBF27512762008EB1E6 /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

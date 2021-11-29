@@ -59,7 +59,7 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        try? SoundsKit.playOnboardingLetrando(at: pageControl.currentPage)
+        try? SoundsKit.playOnboardingFormando(at: pageControl.currentPage)
         userDefaults.set(true, forKey: UserDefaultsKey.onboardingIsOn.rawValue)
         setOrientation()
     }
@@ -68,7 +68,7 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
         currentIndexPage = .zero
         setViewControllers([pages[currentIndexPage]], direction: .forward, animated: true, completion: nil)
         updateLayout(pages[currentIndexPage])
-        try? SoundsKit.playOnboardingLetrando(at: pageControl.currentPage)
+        try? SoundsKit.playOnboardingFormando(at: pageControl.currentPage)
         userDefaults.set(true, forKey: UserDefaultsKey.onboardingIsOn.rawValue)
         setOrientation()
     }
@@ -182,12 +182,12 @@ class OnboardingViewController: UIPageViewController, ViewCodable, OnboardingVie
             return
         }
         setCurrentPage(direction: .forward)
-        try? SoundsKit.playOnboardingLetrando(at: currentIndexPage)
+        try? SoundsKit.playOnboardingFormando(at: currentIndexPage)
     }
     
     private func previewButtonAction() {
         setCurrentPage(direction: .reverse)
-        try? SoundsKit.playOnboardingLetrando(at: currentIndexPage)
+        try? SoundsKit.playOnboardingFormando(at: currentIndexPage)
     }
     
     private func setCurrentPage(direction: NavigationDirection) {
