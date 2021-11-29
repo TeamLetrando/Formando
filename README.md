@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://github.com/TeamLetrando/Formando/blob/develop/Formando/Assets.xcassets/AppIcon.appiconset/152.png?raw=true" </img> 
+</div>
+
 <h1 align="center"> Formando </h1>
 
 <p> 
