@@ -1,8 +1,16 @@
 //
-//  File.swift
+//  JsonAnimations.swift
 //  Formando
 //
-//  Created by PATRICIA S SIQUEIRA on 10/11/21.
+//  Created by Lidiane Gomes Barbosa on 19/10/21.
 //
 
 import Foundation
+
+enum JsonAnimations: String {
+    case onboardingPresentation = "mascotPresentation"
+    case onboardingAlert = "mascotAlert"
+    case onboardingTablet = "onboarding3"
+    case mascotHomeAnimation = "home"
+    case mascotResultAnimation = "result"
+}
